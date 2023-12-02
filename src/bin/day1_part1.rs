@@ -22,7 +22,7 @@ fn main() {
     // Right now, I don't know how to solve this.
     */
 
-    let input = include_str!("../../inputs/day1-part1.txt");
+    let input = include_str!("../../inputs/day1.txt");
     let result = solve(&mut input.lines());
 
     println!("Result: {}", result);
